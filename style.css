@@ -7,6 +7,13 @@ header {
     background: linear-gradient(to bottom, #014a019e, #458b451b);
   
 }
+.buy {
+    background-color: rgba(243, 243, 12, 0.896);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}
 nav.button {
     display: flex;
     align-items: center;
@@ -24,10 +31,11 @@ nav.button {
     font-size: 15px;
     font-weight: bold;
     color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 .button a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 15px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -35,6 +43,7 @@ nav.button {
     border-radius: 5px;
     margin: 10px 0px 15px 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 .button a:hover{
     background-color: #99999916;
